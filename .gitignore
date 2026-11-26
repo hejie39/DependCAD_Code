@@ -1,0 +1,44 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.pytest_tmp*/
+.test_tmp/
+test_tmp/
+test_artifacts/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Datasets and evaluation artifacts (excluded from repository)
+data/
+datasets/
+artifacts/
+cache/
+logs/
+results/
+occ_runs/
+feedback_views/
+*.stl
+*.step
+*.stp
+*.brep
+*.npy
+*.npz
+
+# Secrets and local environment configuration
+.env
+.env.*
+*.key
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

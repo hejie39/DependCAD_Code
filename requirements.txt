@@ -1,0 +1,10 @@
+cadquery==2.5.2
+faiss-cpu==1.16.0
+numpy==2.3.2
+networkx==3.4.2
+psutil==7.0.0
+requests==2.32.4
+scipy==1.18.1
+sentence-transformers==6.3.0
+torch==2.6.0
+trimesh==5.2.0
